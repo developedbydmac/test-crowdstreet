@@ -2,6 +2,13 @@
 import CreateAccount from '../../support/pageObjects/CreateAccount'
 
 describe('Register New Account', () => {
+
+  //Use the cy.fixture() method to pull data from fixture file
+  before(function () {
+    cy.fixture('example').then(function (data) {
+      this.data = data;
+    })
+  })
     
     it('Register A New User', () => {
         const createAccount=new CreateAccount()
