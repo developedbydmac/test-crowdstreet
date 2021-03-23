@@ -28,6 +28,6 @@ describe('Register New Account', () => {
       cy.get(':nth-child(1) > ._field_1fb41 > ._check_1fb41').click()
       cy.get(':nth-child(2) > ._field_1fb41 > ._check_1fb41').click()
     //this click will not work because of the I'm not a robot checkbox
-      cy.get('.account-creation-form-container > ._flat_d2f0c').click()
+    //   cy.get('.account-creation-form-container > ._flat_d2f0c').click()
     })
   })
