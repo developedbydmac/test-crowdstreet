@@ -1,4 +1,7 @@
 {
     "viewportWidth": 1200,
-    "viewportHeight": 960
+    "viewportHeight": 960,
+    "env": {
+        "url": "test.crowdstreet.com"
+      }
   }
