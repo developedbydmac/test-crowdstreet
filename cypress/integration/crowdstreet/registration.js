@@ -1,0 +1,19 @@
+/// <reference types="Cypress" />
+
+describe('Register New Account', () => {
+    it('Register A New User', () => {
+      cy.visit('test.crowdstreet.com')
+      cy.get(':nth-child(3) > ._primary_d2f0c').click()
+      cy.get('#create_account_email').type('developedbydmac@gmail.com')
+      cy.get('.-left > .ui > input').type('Daquan')
+      cy.get(':nth-child(2) > .ui > input').type('McDaniel')
+      cy.get('.password-input-container > .input-container > .ui > input').type('Testing21!')
+      cy.get('.password-confirm-input > .ui > input').type('Testing21!')
+      cy.get(':nth-child(7) > .ui > input').type('9196008927')
+      cy.get(':nth-child(2) > ._radio_e1a40').click()
+      cy.get(':nth-child(1) > ._field_1fb41 > ._check_1fb41').click()
+      cy.get(':nth-child(2) > ._field_1fb41 > ._check_1fb41').click()
+    //this click will not work because of the I'm not a robot checkbox
+      cy.get('.account-creation-form-container > ._flat_d2f0c').click()
+    })
+  })
