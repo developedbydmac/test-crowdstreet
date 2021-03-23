@@ -1,6 +1,7 @@
 /// <reference types="Cypress" />
 
 describe('Register New Account', () => {
+    
     it('Register A New User', () => {
       cy.visit('test.crowdstreet.com')
       cy.get(':nth-child(3) > ._primary_d2f0c').click()
