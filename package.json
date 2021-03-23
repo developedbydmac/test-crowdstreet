@@ -1,0 +1,22 @@
+{
+  "name": "test-crowdstreet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developedbydmac/test-crowdstreet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developedbydmac/test-crowdstreet/issues"
+  },
+  "homepage": "https://github.com/developedbydmac/test-crowdstreet#readme",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
