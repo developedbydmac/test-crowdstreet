@@ -5,7 +5,7 @@ describe('Register New Account', () => {
 
   //Use the cy.fixture() method to pull data from fixture file
   before(function () {
-    cy.fixture('example').then(function (data) {
+    cy.fixture('example').then((data) => {
       this.data = data;
     })
   })
